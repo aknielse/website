@@ -10,8 +10,8 @@ body {
 button {
     background-color: #3882f6;
     color: white;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 0.5em;
+    padding: 8px 32px;
     font-weight: 400;
     text-align: center;
 }
@@ -103,6 +103,7 @@ img {
     max-height: 100%;
     padding: 0;
     margin: 0;
+    border-radius: 0.3em;
 }
 
 /*Content box*/
@@ -160,7 +161,7 @@ img {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 32px 15%;
+    padding: 64px 15%;
 }
 
 .main-quote {
@@ -178,6 +179,7 @@ img {
 
 .sign-up {
     display: flex;
+    flex-flow: row nowrap;
     margin: auto;
     padding: 32px 15%;
     gap: 16px;
@@ -188,7 +190,7 @@ img {
     display: flex;
     flex-flow: row wrap;
     background-color:#3882f6;
-    border-radius: 5px;;
+    border-radius: 0.5em;
     padding: 32px 64px;
 }
 
