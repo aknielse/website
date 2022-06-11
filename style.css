@@ -9,11 +9,12 @@ body {
 
 button {
     background-color: #3882f6;
-    color: white;
+    color:#f9faf8;
     border-radius: 0.5em;
     padding: 8px 32px;
-    font-weight: 400;
+    font-weight:500;
     text-align: center;
+    font-size: 14px;
 }
 
 
@@ -173,6 +174,7 @@ img {
 .author {
     text-align: end;
     font-weight: bold;
+    padding: 0 35px;
 }
 
 /*Sign-up box  ---> Still need to fix width*/ 
@@ -181,7 +183,7 @@ img {
     display: flex;
     flex-flow: row nowrap;
     margin: auto;
-    padding: 32px 15%;
+    padding: 64px 15%;
     gap: 16px;
     justify-content: space-between;
 }
@@ -201,17 +203,19 @@ img {
 }
 
 .sign-up-title {
+    display: flex;
     font-weight: bold;
     color: #f9faf8;
     font-size: 18px;
 }
 
 .sign-up-text {
+    display: flex;
     color:#e5e7eb
 }
 
 .sign-up-button {
-    border: solid white;
+    border: 2px solid white;
     margin: 16px;
 }
 
