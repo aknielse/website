@@ -1,5 +1,12 @@
 /*Global*/
 
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
 button {
     background-color: #3882f6;
     color: white;
@@ -11,10 +18,63 @@ button {
 
 /*Header*/
 
+.main-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 15%;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    color: #f9faf8;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.link {
+    display: flex;
+}
+
 /*Sub-header*/
+
+.sub-header{
+
+}
+
+.sub-header-left {
+
+}
+
+.sub-header-title {
+
+}
+
+.sub-header-text{
+
+}
 
 .sub-header-button {
     border: none;
+}
+
+.image-placeholder {
+
 }
 
 /*Content box*/
