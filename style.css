@@ -190,10 +190,11 @@ img {
 
 .sign-up-box {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     background-color:#3882f6;
     border-radius: 0.5em;
     padding: 32px 64px;
+    gap: 64px;
 }
 
 .sign-up-left {
