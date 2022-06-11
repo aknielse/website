@@ -109,9 +109,10 @@ img {
 
 .content {
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    padding: 32px 15% 120px;
 }
 
 .content-title {
@@ -123,27 +124,36 @@ img {
 
 .card-container {
     display: flex;
-    flex-flow: column;
-    align-items: center;
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-around;
+    padding: 32px;
 }
 
 .card {
     display: flex;
-    flex-flow: column nowrap;
-
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 8px;
+    
 }
 
 .card-box {
     border: solid #3882f6;
     border-radius: 5px;
-    padding: 20px;
+    padding: 32px;
     width: 60px;
     height: 60px;
-    flex: 1;
+    gap: 16px;
 }
 
 .card-text {
-
+    display: flex;
+    text-align: center;
+    padding: 0 32px;
 }
 /*Quote box*/
 
@@ -163,7 +173,7 @@ img {
     font-weight: bold;
 }
 
-/*Sign-up box*/
+/*Sign-up box  ---> Still need to fix width*/ 
 
 .sign-up {
     display: flex;
