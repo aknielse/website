@@ -126,34 +126,35 @@ img {
     display: flex;
     flex-flow: row;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 32px;
+
 }
 
 .card {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex: 1;
     gap: 8px;
-    
+    padding: 0 32px;
 }
 
 .card-box {
+    display: flex;
+    gap: 16px;
     border: solid #3882f6;
     border-radius: 15px;
-    padding: 32px;
-    width: 60px;
-    height: 60px;
-    gap: 16px;
+    padding: 48px;
+    width: 62px;
+    height: 62px;
 }
 
 .card-text {
     display: flex;
     text-align: center;
-    padding: 0 32px;
 }
 /*Quote box*/
 
