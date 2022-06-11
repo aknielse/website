@@ -105,7 +105,61 @@ img {
 
 /*Content box*/
 
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+
+}
+
+.card-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.card-box {
+    border: solid #3882f6;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    flex: 1;
+}
+
+.card-text {
+
+}
 /*Quote box*/
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 32px 15%;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+}
 
 /*Sign-up box*/
 
