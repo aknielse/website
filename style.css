@@ -1,0 +1,30 @@
+/*Global*/
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 400;
+}
+
+
+/*Header*/
+
+/*Sub-header*/
+
+.sub-header-button {
+    border: none;
+}
+
+/*Content box*/
+
+/*Quote box*/
+
+/*Sign-up box*/
+
+.sign-up-button {
+    border: white;
+}
+
+/*Footer*/
