@@ -13,6 +13,7 @@ button {
     border-radius: 5px;
     padding: 5px 20px;
     font-weight: 400;
+    text-align: center;
 }
 
 
@@ -39,7 +40,7 @@ button {
 }
 
 .header-links {
-    color: #e5e7eb;;
+    color: #e5e7eb;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -78,7 +79,8 @@ button {
 
 .sub-header-text{
     display: flex;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .sub-header-button {
@@ -163,8 +165,41 @@ img {
 
 /*Sign-up box*/
 
+.sign-up {
+    display: flex;
+    margin: auto;
+    padding: 32px 15%;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.sign-up-box {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:#3882f6;
+    border-radius: 5px;;
+    padding: 32px 64px;
+}
+
+.sign-up-left {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.sign-up-title {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.sign-up-text {
+    color:#e5e7eb
+}
+
 .sign-up-button {
-    border: white;
+    border: solid white;
+    margin: 16px;
 }
 
 /*Footer*/
